@@ -71,7 +71,7 @@ namespace MyPicasa
             ApplicationBar.IsMenuEnabled = true;
 
 
-            //Download Button creation
+            //To create Download Button
 
             btnDownload.Click += new EventHandler(Download_Click);
             btnDownload.IconUri = new Uri("Icons/appbar.download.rest.png", UriKind.Relative);

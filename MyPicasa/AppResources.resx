@@ -122,7 +122,7 @@
     <comment>account google text</comment>
   </data>
   <data name="albdwn_str" xml:space="preserve">
-    <value>Album has been downloaded!</value>
+    <value>Album has been downloaded successfully!</value>
   </data>
   <data name="albums_str" xml:space="preserve">
     <value>All my albums</value>

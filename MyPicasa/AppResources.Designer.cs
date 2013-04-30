@@ -70,7 +70,7 @@ namespace MyPicasa {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Album has been downloaded!.
+        ///   Looks up a localized string similar to Album has been downloaded successfully!.
         /// </summary>
         internal static string albdwn_str {
             get {
