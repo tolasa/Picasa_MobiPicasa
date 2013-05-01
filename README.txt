@@ -6,8 +6,8 @@ MobiPicasa with Picasa back-end service
 ___________________________________________________________________________
 General description
 
-At its most basic level  MobiPicasa  lets you access photos in your Picasaweb account from your windows mobile handset. 
-It allows viewing of all your public and private albums and photo images in these albums. You can also download the photos to your phone or upload new photos from your phone using existing photos from Picture Hub or taking new photos by camera to your picassaweb albums. I will be listing all the features and specifications which this app enables us after a while. It's known that this project has granted me a lot of experience that dares me to try to develop a WP7 app from scratch. The more I dig out the more I became confident in this area. Apart from the actual time of the project, in this Spring I could be able to grab some skills on common terms like tombstonig, live tile, localization and how to use application bars in the code page instead of the design page. As aresult I have upgraded the project with significant changes during this Spring which can be seen in the demo video file. I haven't changed everything but added some features and improved what was already done before. For example the old project code had a bit problem on tombstoning and photo dowloading functions. Now, I improved those to work properly and added some other interesting features like dowloading an album with its entire photos in the album, slide show of the photos in an album, secondary live tile which displays number of photos in an album and also details of the album and localization ready to be implemented but not yet working practically.
+At its most basic level  MobiPicasa  lets you access photos and perform some activities on them using your Picasaweb(Google) account from your windows mobile handset. 
+It allows to view all your public and private albums and photo images in these albums. You can also download the photos to your phone or upload new photos from your phone using existing photos from Picture Hub or taking new photos by camera to your picassaweb albums. I will be listing all the features and specifications which this app enables us to do after a while. It's obviously known that this project has granted me a lot of experience that makes me dare to try developing a WP7 app from scratch. The more I dig out the more I became confident in this area. Apart from the actual time of the project, I could be able to grab some skills on common terms like tombstonig, live tile, localization and how to use application bars in the code page instead of the design page in this Spring. As aresult I have upgraded the project with significant changes during this Spring which can be seen in the demo video file as well. I haven't changed everything but added some features and corrected some errors from the previous projec. For example the old project code had a bit problem on tombstoning and photo dowloading functions. Now, I improved those to work properly and added some other interesting features like dowloading an album with its entire photos in the album, slide show of the photos in an album, secondary live tile which pops up number of photos in an album whenever we add new photos or delete the existing photos and localization ready to be implemented but not yet working practically.
 
 
 
@@ -15,10 +15,9 @@ Next, I am going to list all specifications and features included in this new pr
 
 1.MobiPicasa implements the following specifications and features
 
-A.Specifications and features
 
 •Silverlight app for WP7 (Mango) with modern (Metro) UI with  focus on UX
-•localization ready (can be localized to other languages)
+•localization ready (can be localized to other language)
 •Implements good WP7 navigation
 •Proper tombstoning
 •Application bars used when appropriate for better navigation
@@ -27,7 +26,7 @@ A.Specifications and features
 •Tappable support
 •Dark and light themes supported
 •Utilizes Silverlight Toolkit for WP7
-•Live tile
+•Secodary live tile
 •Log in with email and password
 •Log out
 •Upload images to an album from Picture Hub or from camera after capturing
@@ -49,7 +48,7 @@ This project can still be extended to a better level by adding some features lik
 •Using Panaroma style, 
 •Implementing the localization, 
 •Pinch and zoom support, 
-•Sharing photos on social medias like Facebook or Twitter, 
+•Sharing Picasa photos on social medias like Facebook or Twitter, 
 •Enabling the user to rate and comment about the app.
 •Browsing  favorite people’s albums.
 •Using Model-View-ViewModel architecture 
