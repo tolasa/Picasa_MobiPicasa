@@ -61,12 +61,7 @@ namespace MyPicasa
             ApplicationBar.IsVisible = true;
             ApplicationBar.IsMenuEnabled = true;
 
-            //Camera Button
-            //ApplicationBarIconButton btnCamera = new ApplicationBarIconButton();
-            //btnCamera.IconUri = new Uri("Icons/appbar.feature.camera.rest.png", UriKind.Relative);
-            //btnCamera.Text = AppResources.camerabtn;
-            //btnCamera.Click += new EventHandler(this.app.Camera_Click);
-            //ApplicationBar.Buttons.Add(btnCamera);
+           
 
             //Help Button
             ApplicationBarIconButton btnHelp = new ApplicationBarIconButton();

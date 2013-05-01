@@ -54,7 +54,7 @@
                                  Margin="{StaticResource PhoneTouchTargetOverhang}" />
                 <Button x:Name="saveEmailButton"
                         Content="Save"
-                        Click="SaveEmail_Click" Style="{StaticResource biks}"/>
+                        Click="SaveEmail_Click" Style="{StaticResource biks}" Background="Transparent" Foreground="Violet" />
             </StackPanel>
 
             <TextBlock Text="Share this App:"
@@ -64,7 +64,7 @@
             <StackPanel Orientation="Horizontal">
                 <Button Content="SMS"
                         Width="221"
-                        Click="ShareSms_Click" Height="87" Style="{StaticResource biks}"/>
+                        Click="ShareSms_Click" Height="87" Style="{StaticResource biks}" Foreground="Violet" />
             </StackPanel>
 
             <TextBlock Text="Windows Phone Marketplace:"
@@ -72,9 +72,9 @@
            
             <StackPanel Orientation="Horizontal">
                 <Button Content="Search Marketplace"
-                        Click="Search_Click" Style="{StaticResource biks}"/>
+                        Click="Search_Click" Style="{StaticResource biks}" Foreground="Violet" />
                 <Button Content="Search Bing"
-                        Click="BingSearch_Click" Style="{StaticResource biks}"/>
+                        Click="BingSearch_Click" Style="{StaticResource biks}" Foreground="Violet" />
             </StackPanel>
         </StackPanel>
     </Grid>

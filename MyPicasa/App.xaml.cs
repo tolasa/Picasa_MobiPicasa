@@ -214,7 +214,7 @@ namespace MyPicasa
 
         public void Logout_Click(object sender, EventArgs e)
         {
-
+          
             MessageBoxResult result = MessageBox.Show(AppResources.logout_msg, "", MessageBoxButton.OKCancel);
             if (result == MessageBoxResult.OK)
             {

@@ -384,13 +384,18 @@ namespace MyPicasa
 
         void Download_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < app.albumImages.Count; i++)
+
+            MessageBoxResult result = MessageBox.Show(AppResources.download_msg, "", MessageBoxButton.OKCancel);
+            if (result == MessageBoxResult.OK)
             {
-                WebClient wc = new WebClient();
-                wc.OpenReadCompleted += new OpenReadCompletedEventHandler(wc_OpenReadCompleted);
-                wc.OpenReadAsync(new Uri(app.albumImages[i].content), wc);
+                for (int i = 0; i < app.albumImages.Count; i++)
+                {
+                    WebClient wc = new WebClient();
+                    wc.OpenReadCompleted += new OpenReadCompletedEventHandler(wc_OpenReadCompleted);
+                    wc.OpenReadAsync(new Uri(app.albumImages[i].content), wc);
+                }
+                MessageBox.Show(AppResources.albdwn_str);
             }
-            MessageBox.Show(AppResources.albdwn_str);
         }
 
         public void wc_OpenReadCompleted(object sender, OpenReadCompletedEventArgs e)

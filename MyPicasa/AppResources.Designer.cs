@@ -142,6 +142,15 @@ namespace MyPicasa {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Are you sure you want to download the entire album?.
+        /// </summary>
+        internal static string download_msg {
+            get {
+                return ResourceManager.GetString("download_msg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Download.
         /// </summary>
         internal static string downloadbtn {
@@ -255,6 +264,15 @@ namespace MyPicasa {
         internal static string picdwn_str {
             get {
                 return ResourceManager.GetString("picdwn_str", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you want to download this photo?.
+        /// </summary>
+        internal static string picload_msg {
+            get {
+                return ResourceManager.GetString("picload_msg", resourceCulture);
             }
         }
         

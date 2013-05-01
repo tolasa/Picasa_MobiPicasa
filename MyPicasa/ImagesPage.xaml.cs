@@ -194,7 +194,7 @@ namespace MyPicasa
             image.Source = bitmapImage;
         }
 
-        // Image is loaded from Google
+        // Image has been loaded from Google
         void bitmapImage_DownloadProgress(object sender, DownloadProgressEventArgs e)
         {
 
@@ -215,12 +215,16 @@ namespace MyPicasa
         //Download button click method to call the download function
         void Download_Click(object sender, EventArgs e)
         {
-            WebClient wc = new WebClient();
-            wc.OpenReadCompleted += new OpenReadCompletedEventHandler(wc_OpenReadCompleted);
-            wc.OpenReadAsync(new Uri(app.albumImages[img].content), wc);
 
+            MessageBoxResult result = MessageBox.Show(AppResources.picload_msg, "", MessageBoxButton.OKCancel);
+            if (result == MessageBoxResult.OK)
+            {
+                WebClient wc = new WebClient();
+                wc.OpenReadCompleted += new OpenReadCompletedEventHandler(wc_OpenReadCompleted);
+                wc.OpenReadAsync(new Uri(app.albumImages[img].content), wc);
+
+            }
         }
-
         public void wc_OpenReadCompleted(object sender, OpenReadCompletedEventArgs e)
         {
             String tempJPEG = "PicasaReaderTempJPEG";

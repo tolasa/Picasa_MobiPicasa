@@ -220,4 +220,12 @@
     <value>Upload</value>
     <comment>upload btn application bar</comment>
   </data>
+  <data name="download_msg" xml:space="preserve">
+    <value>Are you sure you want to download the entire album?</value>
+    <comment>downloading album</comment>
+  </data>
+  <data name="picload_msg" xml:space="preserve">
+    <value>Do you want to download this photo?</value>
+    <comment>A single photo download message</comment>
+  </data>
 </root>
